@@ -4,8 +4,19 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script type="text/javascript" src="drag.js"></script>
+	<style type="text/css">
+		#div{
+			position: absolute;
+			width: 200px;
+			height: 200px;
+			background: blue;
+		}
+	</style>
 </head>
 <body>
 	<div id="div"> </div>
+	<script type="text/javascript">
+			drag(document.getElementById("div"));
+	</script>
 </body>
 </html>
